@@ -131,9 +131,6 @@ main .botao a{
         border-radius: 10px; 
         color: #fff;
     }
-
-    
-
     .normal h3{
         color: rgb(48, 103, 200);
         font-weight: 300;
@@ -141,6 +138,25 @@ main .botao a{
         margin-bottom: 50px;
     }
 
+   #denuncia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+  #denuncia .formulario{
+    width: 40%;
+    height: 60vh;
+    background-color: rgb(243, 243, 243);
+  }
+
+  #denuncia .formulario form{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+  }
+
+     
     #sobre-nos{
          background-color: darkorange;
     }
