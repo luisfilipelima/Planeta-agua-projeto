@@ -114,11 +114,33 @@ main .botao a{
         background-color: rgb(144, 192, 237);
         margin-top: 200px;
         padding: 50px;
+        background-image: url(woman-g834ff7407_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; 
+        display: flex; 
+        align-items: center;
     }
+
+    .text{
+        width: 40%;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.253);
+        display: inline-block;
+        padding: 3%;
+        border-radius: 10px; 
+        color: #fff;
+    }
+
+    
 
     .normal h3{
         color: rgb(48, 103, 200);
         font-weight: 300;
         font-size: 20px;
         margin-bottom: 50px;
+    }
+
+    #sobre-nos{
+         background-color: darkorange;
     }
